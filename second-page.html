@@ -39,14 +39,23 @@
             <h3 class="p-2 text-white">Strive Student</h3>
           </div>
           <p class="my-p mt-5">Language:</p>
-          <button
-            class="secnd-but bg-dark border border-white d-flex justify-content-between mb-4"
-          >
-            English
-            <span class="text-white"
-              ><i class="bi bi-caret-down-fill"></i
-            ></span>
-          </button>
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle bg-dark text-align-left d-flex align-items-center justify-content-between border border-white"
+              type="button"
+              id="dropdownMenuButton1"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+              style="border-radius: 0; width: 180px; text-align: left"
+            >
+              English
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Italiano</a></li>
+              <li><a class="dropdown-item" href="#">French</a></li>
+              <li><a class="dropdown-item" href="#">German</a></li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="row">
@@ -69,6 +78,32 @@
         <div class="col-8">
           <p class="my-p mt-4">Autoplay controls</p>
         </div>
+      </div>
+      <div class="row border-bottom border-secondary">
+        <div class="col-4"></div>
+        <div class="col-8 mb-4">
+          <div>
+            <input type="checkbox" style="display: block" />
+            <p class="text-white">
+              Autoplay next episode in a series on all devices
+            </p>
+          </div>
+          <div><input type="checkbox" style="display: block" /></div>
+          <p class="text-white">
+            Autoplay previews while browsing on all devices
+          </p>
+        </div>
+      </div>
+      <div class="container d-flex justify-content-around">
+        <button class="first-b my-4 border border-secondary bg-dark text-white">
+          SAVE
+        </button>
+        <button class="sec-but my-4 border border-secondary bg-dark text-white">
+          CANCEL
+        </button>
+        <button class="third-b my-4 border border-secondary bg-dark text-white">
+          DELETE PROFILE
+        </button>
       </div>
     </div>
     <script
