@@ -1,0 +1,24 @@
+body {
+  background-color: #141414;
+}
+
+nav {
+  background-color: #141414;
+}
+
+nav ul li {
+  font-size: 20px;
+  padding: 5px;
+}
+
+.div-nav {
+  display: flex;
+  justify-content: center;
+}
+
+div button {
+  width: 180px;
+  height: 50px;
+  text-align: left;
+  font-size: 25px;
+}
