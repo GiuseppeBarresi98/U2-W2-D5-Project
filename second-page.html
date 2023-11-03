@@ -32,7 +32,17 @@
       </div>
       <div class="row mt-4">
         <div class="col-4">
-          <img src="./Netflix-assets/assets/kids_icon.png" alt="" width="90%" />
+          <div style="position: relative">
+            <img
+              src="./Netflix-assets/assets/kids_icon.png"
+              alt=""
+              width="90%"
+            />
+
+            <p class="icon">
+              <i class="bi bi-pen-fill"></i>
+            </p>
+          </div>
         </div>
         <div class="col-8 mt-1 border-bottom border-secondary">
           <div class="bg-secondary">
@@ -88,20 +98,18 @@
               Autoplay next episode in a series on all devices
             </p>
           </div>
-          <div><input type="checkbox" style="display: block" /></div>
-          <p class="text-white">
-            Autoplay previews while browsing on all devices
-          </p>
+          <div class="d-flex align-items-center">
+            <input type="checkbox" />
+            <p class="text-white">
+              Autoplay previews while browsing on all devices
+            </p>
+          </div>
         </div>
       </div>
       <div class="container d-flex justify-content-around">
-        <button class="first-b my-4 border border-secondary bg-dark text-white">
-          SAVE
-        </button>
-        <button class="sec-but my-4 border border-secondary bg-dark text-white">
-          CANCEL
-        </button>
-        <button class="third-b my-4 border border-secondary bg-dark text-white">
+        <button class="first-b my-4 border border-secondary">SAVE</button>
+        <button class="sec-but my-4 border border-secondary">CANCEL</button>
+        <button class="third-b my-4 border border-secondary">
           DELETE PROFILE
         </button>
       </div>
